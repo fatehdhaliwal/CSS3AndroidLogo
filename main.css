@@ -74,7 +74,6 @@ div div {
 
 .l_arm, .r_arm, .l_leg, .r_leg{
     width: 50px;
-    top: -7px;
     position: absolute;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -85,19 +84,22 @@ div div {
     height: 150px;
 }
 .l_arm{
-    left: -45px;
-    transform: rotate(30deg);
+    left: -60px;
+    /*transform: rotate(30deg);*/
 }
 
 .r_arm{
-    right: -45px;
-    transform: rotate(-30deg);
+    right: -60px;
+    /*transform: rotate(-30deg);*/
 }
 
 .l_leg, .r_leg{
     height: 100px;
-    top: 145px;
+    top: 160px;
+}
+.l_leg{
+    left: 39   
 }
 .r_leg{
-    right: 0px;
+    right: 39px;
 }
