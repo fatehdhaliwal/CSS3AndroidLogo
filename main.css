@@ -72,7 +72,32 @@ div div {
     -moz-border-radius: 0 0 25px 25px;
 }
 
-.l_arm{
-    
+.l_arm, .r_arm, .l_leg, .r_leg{
+    width: 50px;
+    top: -7px;
+    position: absolute;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
-    
+
+.l_arm, .r_arm{
+    height: 150px;
+}
+.l_arm{
+    left: -45px;
+    transform: rotate(30deg);
+}
+
+.r_arm{
+    right: -45px;
+    transform: rotate(-30deg);
+}
+
+.l_leg, .r_leg{
+    height: 100px;
+    top: 145px;
+}
+.r_leg{
+    right: 0px;
+}
