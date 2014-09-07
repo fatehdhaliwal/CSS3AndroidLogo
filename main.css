@@ -11,12 +11,13 @@ div div {
 .android{
     height: 404px;
     width: 334px;
-    margin: 50px auto;    
+    margin: 100px auto;    
 }
 
 .head{
     width: 220px;
     height: 100px;
+    top: 34px;
     border-radius: 110px 110px 0 0;
     -moz-border-radius: 110px 110px 0 0;
     -webkit-border-radius: 110px 110px 0 0;
@@ -62,3 +63,16 @@ div div {
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
 }
+.body{
+    width: 220px;
+    height: 184px;
+    top: 40px;
+    border-radius: 0 0 25px 25px;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+}
+
+.l_arm{
+    
+}
+    
